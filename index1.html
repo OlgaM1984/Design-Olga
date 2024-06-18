@@ -17,12 +17,8 @@
 <body>
  <!--here the page begins-->
     <div id="page-wrapper">
-       
-         <header>
- 
-            <div class="logo">
-                Design Olga
-            </div>
+         <header> 
+            <div class="logo"> Design Olga</div>
             <nav>
                 <ul class="nav-links">
                     <li>
@@ -37,7 +33,7 @@
                 </ul>
             </nav>
 
-        <button>Contact Me</button>
+        <button id="Contact-Me">Contact Me</button>
             </header>
                 <div class=main content>
 
@@ -115,14 +111,36 @@
 <!--GET IN TOUCH-->
 
                     <section class="page-section">
-                        <h1> Get in Touch </h1>
+                        <p style="font-size: 16px; color: white; padding-bottom: 40px">
+                            Fill out a form below to send me a message
+                          </p>
+                          <form>
+                            <label for="name" style="display: none">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="your name" />
+                  
+                            <label for="name" style="display: none">Your Email</label>
+                            <input
+                              type="text"
+                              id="email"
+                              name="email"
+                              placeholder="your  e-mail"
+                            />
+                            <br>
+                  
+                            <label for="message" style="display: none">Message</label>
+                            <textarea
+                              id="message"
+                              name="message"
+                              placeholder="your message"
+                            ></textarea>                         
+              <!--          <h1> Get in Touch </h1>
                         <p>Send Me a Message</p>
                          <input type="text" name="Your Name" placeholder="Your Name">
                         <input type="email" name="E-mail" placeholder="Your E-mail">
                         <br>
                         <textarea name="text" id="Your Message">
                             Your Message
-                        </textarea>
+                        </textarea>-->
                         <br>
                         <button id="sendmessage">
                             Send Message
@@ -131,27 +149,24 @@
                     </section>
 
 <!--FOOTER-->
-<!--TEST CHANGES-->
-<!--Now I understand something-->
-
-                    <section class="page-section">
-                        <footter>
-                            <p class="Design Olga"> Design Olga</p>
-                            <ul class="medialinks">
-                                <li>
-                                    <a href="#">Facebook</a>
-                                </li>
-                                <li>
-                                    <a href="#">Instagram</a>
-                                </li>
-                                <li>
-                                     <a href="#">Telegram</a>
-                                </li>  
-                            </ul>
-                          
-                        </footter> 
-                                                    
-                    </section>
+<footer id="footer">
+    <div class="logo">
+      <a class="logo-sign">Design Olga</a>
+    </div>
+    <div class="link-list">
+      <ul>
+        <li>
+          <a href="#">Telegram</a>
+        </li>
+        <li>
+          <a href="#">Facebook</a>
+        </li>
+        <li>
+          <a href="#">Instagram</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
                </div>
 
